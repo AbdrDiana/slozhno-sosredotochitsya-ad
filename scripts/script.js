@@ -1,8 +1,6 @@
 (function initTheme() {
-  const theme = localStorage.getItem('theme');
-  if (theme) {
-    setTheme(theme);
-  }
+  const theme = localStorage.getItem('theme') || 'auto';
+  setTheme(theme);
 })();
 
 document.addEventListener('DOMContentLoaded', () => {
