@@ -17,7 +17,7 @@
   --title-decor-color: #000028;
 
   /* Фоновое изображение */
-  --bg-image: url('../images/cover-image-dark.png');
+  --bg-image: none;
 }
 
 @media (prefers-color-scheme: light) {
