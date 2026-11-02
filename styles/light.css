@@ -25,3 +25,9 @@
 .theme-light .content-section__title {
   color: var(--text-color);
 }
+
+@media (prefers-color-scheme: light) {
+  :root.theme-auto .content-section__title {
+    color: var(--text-color);
+  }
+}
