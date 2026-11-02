@@ -229,6 +229,19 @@
     grid-column: 2;
   }
 
+  /* Вторая секция на планшете */
+  .content-section:nth-of-type(2) {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .content-section:nth-of-type(2) .content-section__title {
+    grid-column: 1;
+  }
+
+  .content-section:nth-of-type(2) > .content-card {
+    grid-column: 1 / -1;
+  }
+
   .content-section:nth-of-type(3) > .content-card__title,
   .content-section:nth-of-type(3) > .content-card {
     grid-column: 2;
@@ -294,15 +307,22 @@
   .footer__title {
     font-size: clamp(9.8125rem, 0.5625rem + 14.4531vw, 10rem);
   }
+  /* Вторая секция на десктопе */
   .content-section:nth-of-type(2) {
     grid-template-columns: repeat(3, 1fr);
   }
 
   .content-section:nth-of-type(2) .content-section__title {
     grid-column: 1 / -1;
+    max-width: calc((100% - 40px) / 3);
   }
 
   .content-section:nth-of-type(2) > .content-card {
     grid-column: auto;
+  }
+
+  /* Горизонтальное меню только на десктопе */
+  .header__theme-menu-list {
+    flex-direction: row;
   }
 }
