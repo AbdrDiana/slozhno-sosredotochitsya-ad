@@ -9,7 +9,6 @@
   line-height: var(--main-line-height, 1.3);
   color: var(--text-color);
   background-color: var(--bg-color);
-  background-image: var(--bg-image);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -47,6 +46,10 @@
   min-height: 668px;
   height: 100vh;
   padding: 10px;
+  background-image: var(--bg-image);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header__theme-menu {
