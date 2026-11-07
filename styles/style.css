@@ -50,6 +50,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .header__theme-menu {
@@ -115,10 +116,6 @@
 .title-decor {
   color: var(--title-decor-color);
   background-color: var(--accent-color);
-}
-
-.header {
-  position: relative;
 }
 
 .header__decor {
@@ -227,7 +224,8 @@
     width: 50%;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.3;   
+    line-height: 1.3; 
+
   }
 
   .header__decor {
