@@ -22,12 +22,39 @@
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
 
+.theme-light .header__theme-menu-button {
+  color: var(--text-color);
+}
+
 .theme-light .content-section__title {
   color: var(--text-color);
 }
 
+.theme-light .header__decor {
+  display: none;
+}
+
+.theme-light .decorated-zone::before,
+.theme-light .decorated-zone::after {
+  border-color: var(--text-color);
+}
+
 @media (prefers-color-scheme: light) {
+  
   :root.theme-auto .content-section__title {
     color: var(--text-color);
+  }
+
+  :root.theme-auto .header__theme-menu-button {
+    color: var(--text-color);
+  }
+
+  :root.theme-auto .header__decor {
+    display: none;
+  }
+
+  :root.theme-auto .decorated-zone::before,
+  :root.theme-auto .decorated-zone::after {
+    border-color: var(--text-color);
   }
 }

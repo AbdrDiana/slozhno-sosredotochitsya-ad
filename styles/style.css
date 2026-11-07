@@ -74,7 +74,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 18px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-transform: lowercase;
   cursor: pointer;
 }
@@ -101,7 +101,7 @@
   font-size: 116px;
   font-weight: 700;
   line-height: 83%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
@@ -116,7 +116,7 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 .title-decor {
@@ -132,7 +132,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 .header__decor::after {
@@ -163,7 +163,7 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 .content-card {
@@ -176,21 +176,21 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 .content-card__title_regular {
   font-size: 18px;
   font-weight: 400;
   line-height: 23.4px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 .content-card__text {
   font-size: 18px;
   font-weight: 400;
   line-height: 23.4px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 .gallery {
@@ -202,7 +202,7 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 .gallery__image {
@@ -226,7 +226,7 @@
   font-size: 116px;
   font-weight: 700;
   line-height: 83%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
@@ -297,6 +297,7 @@
   .gallery {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, min-content);
+    grid-auto-rows: min-content;
     gap: 20px;
   }
 
