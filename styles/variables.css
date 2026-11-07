@@ -7,26 +7,24 @@
   /* Шрифт */
   --main-font: 'IBM Plex mono', monospace;
   --main-font-size: 18px;
-  --main-line-height: 1.3;
+  --main-line-height: 130%;
+  --main-padding: 10px;
+  --main-content-vertical-pading: 40px;
+  --sections-gap: 50px;
 
   /* Основные цвета темной темы */
+  --article-header-color: #000028;
   --bg-color: #000028;
+  --title-decor-color: #000028;
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
+  --button-color: #ff0070;
+  --shadow-color: #ff0070;
+  --section-header-color: #ff0070;
   --title-color: #db00ff;
-  --title-decor-color: #000028;
+  --button-border: #ff007066;
 
   /* Фоновое изображение */
   --bg-image: url('../images/cover-image-dark.png');
-}
-
-@media (prefers-color-scheme: light) {
-  :root.theme-auto {
-    --bg-color: #fff1f7;
-    --text-color: #353430;
-    --accent-color: #ff8dcb;
-    --title-color: #ffc2e6;
-    --title-decor-color: #353430;
-    --bg-image: url('../images/cover-image-light.png');
-  }
+  --rec-type: block;
 }

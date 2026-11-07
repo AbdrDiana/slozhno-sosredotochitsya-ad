@@ -11,50 +11,32 @@
   */
 
   --bg-color: #fff1f7;
+  --article-header-color: #353430;
+  --button-color: #353430;
+  --section-header-color: #353430;
   --text-color: #353430;
+  --button-border: #32312d66;
   --accent-color: #ff8dcb;
-  --title-color: #ffc2e6;
-  --title-decor-color: #353430;
+  --main-header-color: #ffc2e6;
   --bg-image: url('../images/cover-image-light.png');
+  --rec-type: none;
 }
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
 
-.theme-light .header__theme-menu-button {
-  color: var(--text-color);
-}
-
-.theme-light .content-section__title {
-  color: var(--text-color);
-}
-
-.theme-light .header__decor {
-  display: none;
-}
-
-.theme-light .decorated-zone::before,
-.theme-light .decorated-zone::after {
-  border-color: var(--text-color);
-}
-
 @media (prefers-color-scheme: light) {
-  
-  :root.theme-auto .content-section__title {
-    color: var(--text-color);
-  }
-
-  :root.theme-auto .header__theme-menu-button {
-    color: var(--text-color);
-  }
-
-  :root.theme-auto .header__decor {
-    display: none;
-  }
-
-  :root.theme-auto .decorated-zone::before,
-  :root.theme-auto .decorated-zone::after {
-    border-color: var(--text-color);
+  :root {
+    --bg-color: #fff1f7;
+    --article-header-color: #353430;
+    --button-color: #353430;
+    --section-header-color: #353430;
+    --text-color: #353430;
+    --button-border: #32312d66;
+    --accent-color: #ff8dcb;
+    --main-header-color: #ffc2e6;
+    --bg-image: url('../images/cover-image-light.png');
+    --rec-type: none;
   }
 }
