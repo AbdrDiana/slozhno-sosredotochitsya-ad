@@ -83,7 +83,7 @@
 }
 
 .title {
-  color: var(--main-header-color);
+  color: var(--title-color);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
   font-weight: 700;
@@ -161,7 +161,7 @@
 }
 
 .card-text {
-  color: var(--main-text-color);
+  color: var(--text-color);
   font-size: var(--main-font-size);
   line-height: var(--main-line-height);
   font-weight: 400;
@@ -174,7 +174,7 @@
 
 .card-text .accented-link:hover {
   outline: none;
-  border-bottom: 1px solid var(--main-text-color);
+  border-bottom: 1px solid var(--text-color);
 }
 
 .card-text .accented-link:focus {
@@ -182,7 +182,7 @@
 }
 
 .card-text .accented-link:focus-visible {
-  outline: 1px solid var(--main-text-color);
+  outline: 1px solid var(--text-color);
 }
 .card-images {
   display: grid;
